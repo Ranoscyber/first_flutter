@@ -6,10 +6,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text('Home Screen'),),
       body: Center(
         child: Column(
-          
-          children: const [Text("Welcome to the Home Screen")],
+          children: const [Text("This is branch sonar.homescreen")],
         ),
       ),
     );
