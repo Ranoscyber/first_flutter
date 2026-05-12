@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(title: Text('Home Screen'),),
       body: Center(
         child: Column(
-          children: const [Text("This is branch sonar.homescreen,Git rebase")],
+          children: const [Text("This is branch sonar.homescreen,Git rebase, Learn about Rebease")],
         ),
       ),
     );
